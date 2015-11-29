@@ -3,10 +3,10 @@
 class GPNN
 {
 private:
-	unsigned long perceptron_size;
-	unsigned long connection_size;
-	connection network[_MAX_];
-	bool machine_state;
+	unsigned long cp; // count of perceptron
+	unsigned long cc; // count of connection
+	connection network[_MAX_]; // network of all perceptrons
+	bool machine_state; // machine state to identify working status
 
 public:
 	GPNN();
