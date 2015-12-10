@@ -5,7 +5,8 @@ class GPNN
 private:
 	unsigned long cp; // count of perceptron
 	unsigned long cc; // count of connection
-	connection network[_MAX_]; // network of all perceptrons
+	perceptron perceptrons[MAX_COUNT_OF_PERCEPTRON]
+	connection connections[MAX_COUNT_OF_CONNECTION];
 	bool machine_state; // machine state to identify working status
 
 public:

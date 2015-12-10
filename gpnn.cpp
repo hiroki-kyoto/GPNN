@@ -58,7 +58,8 @@ void GPNN::turn_off()
 GPNN::GPNN()
 {
 	// initialize the GPNN network
-	
+	// it needs a neuron :
+		
 }
 
 GPNN::~GPNN()
